@@ -15,6 +15,9 @@
 		18F1DE6E1FC66DA600228879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DE6D1FC66DA600228879 /* main.m */; };
 		18F1DE781FC66DA600228879 /* YHYButtonModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DE771FC66DA600228879 /* YHYButtonModelTests.m */; };
 		18F1DE831FC66DA600228879 /* YHYButtonModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DE821FC66DA600228879 /* YHYButtonModelUITests.m */; };
+		18F1DE921FC6724C00228879 /* YHYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DE911FC6724B00228879 /* YHYButton.m */; };
+		18F1DE991FC672E400228879 /* UIView+YHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DE981FC672E400228879 /* UIView+YHYExtension.m */; };
+		18F1DE9B1FC6732600228879 /* navi_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F1DE9A1FC6732600228879 /* navi_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		18F1DE7E1FC66DA600228879 /* YHYButtonModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHYButtonModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F1DE821FC66DA600228879 /* YHYButtonModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHYButtonModelUITests.m; sourceTree = "<group>"; };
 		18F1DE841FC66DA600228879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1DE901FC6724B00228879 /* YHYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHYButton.h; sourceTree = "<group>"; };
+		18F1DE911FC6724B00228879 /* YHYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHYButton.m; sourceTree = "<group>"; };
+		18F1DE971FC672E400228879 /* UIView+YHYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YHYExtension.h"; sourceTree = "<group>"; };
+		18F1DE981FC672E400228879 /* UIView+YHYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YHYExtension.m"; sourceTree = "<group>"; };
+		18F1DE9A1FC6732600228879 /* navi_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,8 @@
 				18F1DE5F1FC66DA600228879 /* AppDelegate.m */,
 				18F1DE611FC66DA600228879 /* ViewController.h */,
 				18F1DE621FC66DA600228879 /* ViewController.m */,
+				18F1DE9A1FC6732600228879 /* navi_bg.png */,
+				18F1DE931FC6725100228879 /* YHYButton */,
 				18F1DE641FC66DA600228879 /* Main.storyboard */,
 				18F1DE671FC66DA600228879 /* Assets.xcassets */,
 				18F1DE691FC66DA600228879 /* LaunchScreen.storyboard */,
@@ -130,6 +140,17 @@
 				18F1DE841FC66DA600228879 /* Info.plist */,
 			);
 			path = YHYButtonModelUITests;
+			sourceTree = "<group>";
+		};
+		18F1DE931FC6725100228879 /* YHYButton */ = {
+			isa = PBXGroup;
+			children = (
+				18F1DE901FC6724B00228879 /* YHYButton.h */,
+				18F1DE911FC6724B00228879 /* YHYButton.m */,
+				18F1DE971FC672E400228879 /* UIView+YHYExtension.h */,
+				18F1DE981FC672E400228879 /* UIView+YHYExtension.m */,
+			);
+			path = YHYButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1DE9B1FC6732600228879 /* navi_bg.png in Resources */,
 				18F1DE6B1FC66DA600228879 /* LaunchScreen.storyboard in Resources */,
 				18F1DE681FC66DA600228879 /* Assets.xcassets in Resources */,
 				18F1DE661FC66DA600228879 /* Main.storyboard in Resources */,
@@ -265,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1DE921FC6724C00228879 /* YHYButton.m in Sources */,
+				18F1DE991FC672E400228879 /* UIView+YHYExtension.m in Sources */,
 				18F1DE631FC66DA600228879 /* ViewController.m in Sources */,
 				18F1DE6E1FC66DA600228879 /* main.m in Sources */,
 				18F1DE601FC66DA600228879 /* AppDelegate.m in Sources */,
